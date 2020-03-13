@@ -8,7 +8,7 @@ PyTorch 0.4.1<br>
 ## Compiling<br>
 InPlace-ABN have a native CUDA implementation, which must be compiled with the following commands:<br>
 
-cd libs<br>
+cd modules<br>
 sh build.sh<br>
 python build.py<br>
 
@@ -22,11 +22,16 @@ Plesae download [LIP](http://sysu-hcp.net/lip/overview.php) dataset<br>
 ## Evaluation<br>
 bash job_evaluate_val.sh<br>
 
+## Acknowledgment  
+This project is created based on the [CE2P](https://github.com/liutinglt/CE2P).
+
 If this code is helpful for your research, please cite the following paper:
 
+<p>
 @article{PGEC2019,<br>
   title={Human Parsing with Pyramidical Gather-Excite Context},<br>
   author={Sanyi Zhang, Guo-jun Qi, Xiaochun Cao, Zhanjie Song, Jie Zhou},<br>
   journal={TCSVT, under review},<br>
   year={2020}<br>
 }
+  </p>

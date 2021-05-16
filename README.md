@@ -37,6 +37,9 @@ If this code is helpful for your research, please cite the following paper:
   title={Human Parsing with Pyramidical Gather-Excite Context},<br>
   author={Sanyi Zhang, Guo-jun Qi, Xiaochun Cao, Zhanjie Song, Jie Zhou},<br>
   journal={IEEE Transactions on Circuits and Systems for Video Technology(TCSVT)},<br>
-  year={2020}<br>
+  year={2021},<br>
+  volume={31},<br>
+  number={3},<br>
+  pages={1016-1030}<br> 
 }
   </p>

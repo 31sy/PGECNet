@@ -405,7 +405,7 @@ class ResNet_Edge_GE_multi(nn.Module):
         out2 = self.layer7(x)         
         return out1, out2, x_dsn, edge    
              
-def Res_CE2P_GE_multi(num_classes=20):
+def Res_GE_multi(num_classes=20):
 
     model = ResNet_Edge_GE_multi(Bottleneck,[3, 4, 23, 3], num_classes)
 

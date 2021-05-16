@@ -11,7 +11,7 @@ from torch.autograd import Variable
 import torchvision.models as models
 import torch.nn.functional as F
 from torch.utils import data
-from models import Res_CE2P_GE_multi
+from models import Res_GE_multi
 from dataset.datasets import LIPDataValSet
 from tensorboardX import SummaryWriter
 from collections import OrderedDict
@@ -215,7 +215,7 @@ def main():
     
     os.environ["CUDA_VISIBLE_DEVICES"]=args.gpu
 
-    model = Res_CE2P_GE_multi(num_classes=args.num_classes)
+    model = Res_GE_multi(num_classes=args.num_classes)
        
     if not os.path.exists(args.save_dir):
         os.makedirs(args.save_dir) 

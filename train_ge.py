@@ -20,7 +20,7 @@ from tensorboardX import SummaryWriter
 from models import Res_GE_multi
 from dataset.datasets import LIPParsingEdgeDataSet
 from utils.utils import decode_labels, inv_preprocess, decode_predictions
-from utils.criterion import CriterionCrossEntropyEdgeParsingOC 
+from utils.criterion import CriterionCrossEntropyEdgeParsingAL 
 from utils.encoding import SelfDataParallel, ModelDataParallel, CriterionDataParallel
 from numpy.distutils.tests.test_exec_command import emulate_nonposix
  
